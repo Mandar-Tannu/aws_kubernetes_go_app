@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Info</title>
+</head>
+<body>
+
+<h2>User Information Form</h2>
+
+<form method="POST" action="/submit" enctype="multipart/form-data">
+    <label>
+        Name:
+        <input type="text" name="name" required>
+    </label>
+    <br><br>
+
+    <label>
+        Email:
+        <input type="email" name="email" required>
+    </label>
+    <br><br>
+
+    <label>
+        Phone:
+        <input type="text" name="phone" required>
+    </label>
+    <br><br>
+
+  <label>
+      Upload KYC Document (PDF / JPG / PNG):
+       <input type="file" name="kyc_document" required>
+   </label>
+   <br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
