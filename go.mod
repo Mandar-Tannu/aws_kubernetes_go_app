@@ -1,2 +1,2 @@
-module aws_kubernetes_kubeadm_go_app
+module aws_kubernetes_go_app
 go 1.23
